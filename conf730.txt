@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lqng="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> CONFIGURADOR TORSH 730 </title>
+	<link rel="stylesheet" href="conf730.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@	0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1> CONFIGURA TU TORSH 730 </h1>
+		<div class="foto1"><center><img src="conf730.jpg" width="400"/></center></div>
+
+
+		<div class="apartados-container"> 
+			<h3> COLORES </h3>
+			<div class="apartado">
+				<img src="color7301.jpg" width="300"/><img src="color7302.jpg" width="300"/>
+			</div>
+		</div>
+
+		<div class="apartados-container">
+			<h3> LLANTAS </h3>
+			<div class="apartado">
+				<img src="llantas7301.jpg" width="200"/>
+			</div>
+			<div class="apartado">
+				<img src="llantas7302.jpg" width="200"/>
+			</div>
+			<div class="apartado">
+				<img src="llantas7303.jpg" width="200"/>
+			</div>
+			<div class="apartado">
+				<img src="llantas7304.jpg" width="200"/>
+			</div>
+		</div>
+
+
+		<div class="apartados-container">
+			<h3> INTERIORES </h3>
+			<div class="apartado">
+				<img src="inter7301.jpg" width="400"/>
+			</div>
+			<div class="apartado">
+				<img src="inter7302.jpg" width="400"/>
+			</div>
+			<div class="apartado">
+				<img src="inter7303.jpg" width="400"/>
+			</div>
+			<div class="apartado">
+				<img src="inter7304.jpg" width="400"/>
+			</div>
+			<div class="apartado">
+				<img src="inter7305.jpg" width="400"/>
+			</div>
+			<div class="apartado">
+				<img src="inter7306.jpg" width="400"/>
+			</div>
+		</div>
+
+		<div class="apartados-container">
+			<div class="apartado">
+				<a href="730.html">Volver a "Torsh 730"</a>
+			</div>
+			<div class="apartado">
+				<a href="index.html">Regresar a la página de inicio</a>
+			</div>
+		</div>
+	</div>
+
+<script src="conf511.js"></script>	
+</body>
+</html>

@@ -1,0 +1,247 @@
+* {
+    	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+}
+
+body {
+    	font-family: 'Montserrat', sans-serif;
+    	background-color: rgb(142, 162, 166);
+    	color: #333;
+    	line-height: 1.6;
+   	position: relative;
+}
+
+.logo {
+    	position: fixed; 
+    	top: 10px; 
+    	left: 10px; 
+    	width: 100px; 
+    	height: auto; 
+    	z-index: 1000; 
+}
+
+.container {
+    	display: flex;
+    	flex-direction: column; 
+    	align-items: center;
+    	width: 100%;
+}
+
+.parrafo, .foto1, .foto2, .foto3 {
+    opacity: 0;
+}
+
+.email-destacado {
+    color: #a68b3c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    padding: 0 2px;
+}
+
+.email-destacado:hover {
+    color: #556b2f;
+    background-color: #f5f0e1;
+    border-radius: 3px;
+}
+
+.email-destacado::after {
+    content: " (clic para copiar)";
+    font-size: 0.7em;
+    color: #8b7e66;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.email-destacado:hover::after {
+    opacity: 1;
+}
+
+.foto2 img, .foto3 img {
+    border: 3px solid #f5f0e1;
+    border-radius: 5px;
+    transition: all 0.4s ease !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.badge-antiguedad {
+    background: #f5f0e1;
+    color: #556b2f;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contador-renacimiento {
+    font-style: italic;
+    color: #8b7e66;
+    margin-top: 15px;
+    font-size: 0.9em;
+    background: #fafafa;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.widget-aniversario {
+    background: #fafafa;
+    border-left: 4px solid #a68b3c;
+    padding: 15px;
+    margin: 25px 0;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.widget-aniversario strong {
+    color: #a68b3c;
+    font-weight: 700;
+}
+
+.widget-aniversario small {
+    display: block;
+    font-size: 0.8em;
+    color: #6b8e23;
+    margin-top: 5px;
+}
+
+.foto1 img {
+    transition: opacity 0.8s ease;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    	color: rgb(164, 3, 31);
+    	font-family: 'Oswald', sans-serif;
+    	font-size: 3.5vw; 
+    	font-weight: 700;
+    	text-align: center;
+    	text-decoration: overline;
+    	line-height: 2;
+    	letter-spacing: 5px;
+    	padding-left: 100px;
+	padding-right: 100px;
+    	border: 2px solid #2424; 
+    	margin: 10px;
+    	background-color: #eee;
+}
+
+h2 {
+    	color: rgb(142, 162, 166);
+    	font-family: 'Oswald', sans-serif;
+    	font-size: 2.8vw; 
+    	font-weight: 700;
+    	font-style: italic;
+    	text-align: center;
+    	text-decoration: underline;
+    	line-height: 1;
+    	letter-spacing: 2px;
+    	margin: 20px 10px 10px; 
+}
+
+h3 {
+    color: rgb(86, 102, 105);
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw; 
+    font-weight: 500;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+a {
+    color: rgb(142, 162, 166);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3vw; 
+    font-weight: 700;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-decoration: none; 
+    transition: font-size 0.3s ease; 
+}
+
+a:hover {
+    font-size: 1.5vw;
+}
+
+p {
+    color: rgb(142, 162, 166);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3vw; 
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.subtitulo, .parrafo, .foto1, .foto2, .foto3 {
+    background: white;
+    width: 90%; 
+    margin: 10px auto; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.foto1 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0; 
+}
+
+.foto3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px 0;
+}
+
+.foto3 img {
+    	max-width: 200px; 
+    	height: auto;
+	margin-left: 20px;
+}
+
+.apartados-container {
+    background: white; 
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.apartado {
+    background: #f0f0f0; 
+    margin: 10px 0; 
+    padding: 15px; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.apartado a {
+    display: block; 
+    padding: 10px; 
+    color: rgb(86, 102, 105);
+    text-decoration: none;
+}
+
+.apartado:hover {
+    background-color: #b9c6c9; 
+    transform: scale(1.05); 
+}
+
+.apartado a:hover {
+    color: rgb(164, 3, 31); 
+}
+

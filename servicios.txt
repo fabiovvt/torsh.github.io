@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="e">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> SERVICIOS </title>
+	<link rel="stylesheet" href="torshinicioservs.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@	0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<div class="body"><body>
+	<h1> SERVICIOS </h1>
+	<div class="foto1"><img width "500px" src="servicios.jpg"/></div>	
+	<div class="parrafo"><h3> ¿QUÉ OFRECEMOS? </h3>
+	<p> En Torsh ofrecemos múltiples servicios para nuestros clientes. Entre ellos, nuestro principal servicio, como ya te habrás imaginado, es la venta de automóviles. 	Cada vehículo Torsh es altamente personalizable y, accediendo al configurador online, para el que encontrarás un enlace más abajo, podrás hacer que tu vehículo sea 	único y diferente. Además, con la compra del propio automóvil, recibirás una garantía válida durante 5 años, cubriendo cualquier defecto que el mismo pueda tener. No 	nos detenemos ahí, también contamos con talleres donde trabajan las personas más experimentadas del sector. Estos talleres no solo se limitan a la reparación y 	mantenimiento de los vehículos Torsh, sino que, sin importar qué coche tengas, podrás confiarnos tu vehículo, el cual estará en las mejores manos. </p> <br/>
+	</div><br/>
+	<div class="foto1"><center><img src="garantia.jpg" alt="centered image" width="400"/></div>
+	<div class="foto1"><center><img src="colores.jpg" alt="centered image" width="400"/></div>
+
+	 <div class="video-container">
+		<div class="apartado">
+			<video controls>
+            			<source src="servs.mp4" type="video/mp4">     
+			</video>
+		</div>
+	</div>
+
+	<div class="apartados-container">
+	<h3> APARTADOS </h3>
+            <div class="apartado"> 
+                <a href="catálogo.html">Descubre nuestro catálogo</a>
+            </div>
+            <div class="apartado"> 
+                <a href="index.html">Regresar a la página de inicio</a>
+            </div>
+        </div>
+<script src="servicios.js"></script>
+</body></div>
+</html>
+	

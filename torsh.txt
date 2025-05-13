@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TORSH </title>
+    <link rel="stylesheet" href="torshinicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Oswald:wght@200..700&family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="logo.jpg" alt="Logo" class="logo">
+    <div class="container">
+        <h1> TORSH </h1>
+        <div class="subtitulo"><strong><h2> "Conduce tus sueños" </h2> <br/></strong></div>
+        <div class="foto1"><center><img src="torshinicio.jpg" width="400"></center></div>
+        <div class="parrafo">
+            <h3> NUESTRA EMPRESA </h3>
+            <p> En Torsh nos dedicamos a la venta de automóviles, así como a la reparación de los mismos. Pioneros en innovación, Torsh es la marca de automóviles más fiable 	del mercado. Al confiar en nosotros, recibirás la mejor de las experiencias, con una rápida entrega y un excepcional servicio al cliente. Si estás pensando en 	adquirir un nuevo vehículo, ¿a qué esperas?. Ponte en contacto para experimentar la mejor experiencia al volante. </p>
+        </div>
+        <div class="foto3">
+            <h3> DESCUBRE MÁS SOBRE NOSOTROS </h3>
+            <div class="foto3-container">
+		<img src="masnosotros.jpg" alt="Más sobre nosotros" width="200"> 
+            </div>
+        </div>
+        <div class="apartados-container"> 
+            <h3> APARTADOS </h3>
+            <div class="apartado"> 
+                <a href="quienessomos.html">Quiénes somos</a>
+            </div>
+            <div class="apartado"> 
+                <a href="servicios.html">Servicios</a>
+            </div>
+            <div class="apartado"> 
+                <a href="ubicacion.html">Ubicación</a>
+            </div>
+            <div class="apartado">
+                <a href="catálogo.html">Catálogo</a>
+            </div>
+        </div>
+    </div>
+	<script src="torsh.js"></script>
+</body>
+</html>
+

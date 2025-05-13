@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> DÓNDE ESTAMOS </title>
+	<link rel="stylesheet" href="torshinicioub.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@	0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1> DÓNDE ESTAMOS </h1>
+		<div class="foto1"><center><img src="mapa.jpg" alt="centered image" width="400"/></div>
+
+
+		<div class="parrafo">
+			<h3> UBICACIÓN </h3>
+			<p> Desde nuestro inicios, nuestras instalaciones siempre han estado en Bercial, un pequeño pueblo de la provincia de Segovia. A día de hoy 				continuamos teniendo nuestras instalaciones allí por lo que nos podréis encontrar en la calle Sauda Cobos, 8A, en Bercial, España. </p></div>
+			<div class="foto1"><img src="alcazar.jpg" width="400px"/></div>
+			<div class="apartados-container">
+				<div class="apartado">
+					<a href="https://maps.app.goo.gl/Viwi4xU6auTMBVPG9"><img width "500px" alt="Encuéntranos" src="bercial.jpg"/><p>Encuéntranos</p>
+				</div>
+			</div>
+		</div>
+
+	 <div class="apartados-container"> 
+            <h3> APARTADOS </h3>
+            <div class="apartado"> 
+                <a href="index.html">Regresar a la página</a>
+            </div>
+        </div>
+<script src="ubicacion.js"></script>
+</body></div>
+</html>
